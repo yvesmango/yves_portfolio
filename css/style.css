@@ -46,20 +46,26 @@
   a {
     text-decoration: none;
     outline: none;
+    color: inherit;
   }
 
   a:hover {
     text-decoration: none;
     outline: none;
+    color: inherit;
+
   }
 
   a:active {
     text-decoration: none;
-    outline: none'
+    outline: none;
+    color: inherit;
   }
 
   a:visited {
     outline: none;
+    color: inherit;
+
   }
 
 body {
