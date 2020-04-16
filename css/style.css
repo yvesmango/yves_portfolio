@@ -71,7 +71,7 @@
 body {
     opacity: 1;
     transition: 2.2s opacity;
-    background-image: linear-gradient(to bottom, #eee6d2, #f2e2b5,#f1db9c);
+    background-color: #f2e2b5; 
 }
 
 body.fade-out {
