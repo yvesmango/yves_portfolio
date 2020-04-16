@@ -31,23 +31,17 @@
     height: auto; */
     transition: .3s;
     border-radius: 5px;
-    
-
-
-
   }
 
   .img:hover {
     cursor: pointer;
-    cursor: pointer;
     -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
     box-shadow: 1px 1px 5px #999;
-    overflow: hidden;
-    opacity: 1
+    border: solid 1px #CCC;
+    color: rgba(204, 204, 204, 0.507);
+
   } 
-
-
 
   a {
     text-decoration: none;
@@ -254,7 +248,13 @@ p:hover{
 
 .fab fa-linkedin-in fa-lg:hover {
   cursor: pointer;
+  color: #775c10;
 
+}
+
+#icons:hover {
+  cursor: pointer;
+  color: #775c10;
 }
 
 .fab fa-github fa-lg {
