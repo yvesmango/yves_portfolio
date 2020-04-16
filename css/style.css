@@ -12,22 +12,23 @@
 
   }
   
-  .column img {
+  .img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+
+
 
   }
 
-  /* .column img:hover {
-    border: solid 1px #CCC;
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-        box-shadow: 1px 1px 5px #999;
+  .img:hover {
     cursor: pointer;
-  } */
+
+  } 
 
 body {
     opacity: 1;
@@ -123,7 +124,7 @@ button:hover {
     h4 {
       padding-left: 0;
       padding-right: 0;
-        color:  #7a5f15;
+      color:  #7a5f15;
 
 
     }
@@ -138,8 +139,8 @@ button:hover {
 h1 {
     padding-top: 90px;
     padding-left: 10%;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
     color:  #7a5f15;
 }
 
@@ -148,17 +149,25 @@ h4 {
     padding-top: 30px;
     padding-left: 10%;
     padding-right: 35%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'EB Garamond', serif;
     color:  #7a5f15;
+    font-size: 20px;
 
 }
 
 h5 {
     padding-top: 10px;
     padding-left: 10%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'EB Garamond', serif;
     color:  #7a5f15;
 }
+
+p {
+  font-family: 'EB Garamond', serif;
+  color:  #7a5f15;
+}
+
+
 
 /* a { 
     text-decoration:none;
