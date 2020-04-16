@@ -9,7 +9,15 @@
     flex: 25%;
     max-width: 28%;
     padding: 25px;
+    
   }
+
+  /* .img-holder:hover {
+    background: black;
+    overflow: hidden;
+    
+ 
+  } */
 
  
   
@@ -23,20 +31,20 @@
     height: auto; */
     transition: .3s;
     border-radius: 5px;
+    
+
 
 
   }
 
   .img:hover {
     cursor: pointer;
-    /* box-shadow: .125em .125em .5em .5em #f0d793; */
     cursor: pointer;
-    /* border: solid 1px #CCC; */
     -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
     box-shadow: 1px 1px 5px #999;
-
-
+    overflow: hidden;
+    opacity: 1
   } 
 
   a {
@@ -47,40 +55,17 @@
     text-decoration: none;
   }
 
-
- 
-/* 
-  .container:hover .overlay {
-    height: 100%;
-  } */
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
 body {
     opacity: 1;
     transition: 2.2s opacity;
     background-image: linear-gradient(to bottom, #eee6d2, #f2e2b5,#f1db9c);
-    
-
-
 }
+
 body.fade-out {
     opacity: 0;
     transition: none;
 
 }
-
-
 
 .fab fa-linkedin-in fa-lg {
     text-align: center;
