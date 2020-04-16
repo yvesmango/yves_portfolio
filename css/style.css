@@ -1,0 +1,149 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:8%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 27%;
+    padding: 25px;
+
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .column img:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    /* opacity: 0; */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+    .row {
+        padding-left: 0;
+    }
+    h1 {
+        padding-left: 0;
+
+    }
+
+    h4 {
+        float: left;
+
+    }
+
+    h5 {
+        padding-left: 0;
+
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .row {
+        padding-left: 0;
+    }
+
+    h1 {
+        padding-left: 0;
+
+    }
+
+    h4 {
+        float: left;
+
+
+    }
+
+    h5 {
+        padding-left: 0;
+
+    }
+  }
+
+h1 {
+    padding-top: 90px;
+    padding-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+h4 {
+    max-width: 100%;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 35%;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h5 {
+    padding-top: 10px;
+    padding-left: 10%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* a { 
+    text-decoration:none;
+  }
+    
+  .image-container:hover {
+    cursor:pointer;
+    color:#fff490;
+  }
+  .overlay{
+    display:none;
+      text-align: center;
+  }
+ .image-container:hover .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+  display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background: #1d1f21;
+    border-radius: 5px;
+      width:100%;
+    height:100%;
+     opacity:0.95;
+  } */
+  
+  /* .single-news > img {
+    padding:10px;
+    background:#1d1f21;
+    border-radius: 5px;
+  display:block;
+  }
+  
+  h3.responsive-title {
+    font-size:1.4rem;
+  }
+  
+  .responsive-date {
+    font-size:1.2rem;
+  }
+  
+  .overlay-content {
+    font-size:1.3rem;
+  } */ 
