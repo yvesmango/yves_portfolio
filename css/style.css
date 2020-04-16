@@ -91,8 +91,9 @@ button:hover {
     }
 
     h4 {
-        float: left;
-        color:  #7a5f15;
+      padding-left: 0;
+      padding-right: 0;
+      color:  #7a5f15;
 
     }
 
@@ -120,7 +121,8 @@ button:hover {
     }
 
     h4 {
-        float: left;
+      padding-left: 0;
+      padding-right: 0;
         color:  #7a5f15;
 
 
