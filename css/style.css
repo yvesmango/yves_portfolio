@@ -47,12 +47,25 @@
     opacity: 1
   } 
 
+
+
   a {
     text-decoration: none;
+    outline: none;
   }
 
   a:hover {
     text-decoration: none;
+    outline: none;
+  }
+
+  a:active {
+    text-decoration: none;
+    outline: none'
+  }
+
+  a:visited {
+    outline: none;
   }
 
 body {
@@ -84,6 +97,7 @@ button {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     transition: .4s;
+    outline: none;
 
 }
 
@@ -95,7 +109,20 @@ button:hover {
     box-shadow: 1px 1px 5px #999;
     background-color: white;
     color: #7a5f15;
+    outline: none;
 
+}
+
+button:active {
+  outline: none;
+}
+
+button:visited {
+  outline: none;
+}
+
+a:visited {
+  outline: none;
 }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
