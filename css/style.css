@@ -1,7 +1,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding-left:9%;
+    padding-left:14%;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -46,20 +46,26 @@
   a {
     text-decoration: none;
     outline: none;
+    color: inherit;
   }
 
   a:hover {
     text-decoration: none;
     outline: none;
+    color: inherit;
+
   }
 
   a:active {
     text-decoration: none;
-    outline: none'
+    outline: none;
+    color: inherit;
   }
 
   a:visited {
     outline: none;
+    color: inherit;
+
   }
 
 body {
