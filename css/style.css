@@ -8,7 +8,7 @@
   .column {
     flex: 25%;
     max-width: 28%;
-    padding: 25px;
+    padding: 35px;
     
   }
 
@@ -71,7 +71,7 @@
 body {
     opacity: 1;
     transition: 2.2s opacity;
-    background-color: #f2e2b5; 
+    background: #fcf8ef;
 }
 
 body.fade-out {
@@ -93,7 +93,7 @@ button {
     height: 40px;
     border-color: white;
     color: #7a5f15;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
     transition: .4s;
     outline: none;
@@ -201,44 +201,51 @@ a:visited {
 
 h1 {
     padding-top: 90px;
-    padding-left: 15%;
-    font-family: 'Red Hat Text', sans-serif; 
+    padding-left: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 42px;
     color:  #7a5f15;
-    letter-spacing: 7px;
+    letter-spacing: 0px;
 
 }
 
 h3 {
   max-width: 100%;
-  padding-top: 30px;
-  padding-left: 15%;
+  padding-top: 20px;
+  padding-left: 10%;
   padding-right: 35%;
-  font-family: 'Raleway', sans-serif;   
-   color:  #7a5f15;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:  #7a5f15;
   font-size: 20px;
 }
 
 h4 {
     max-width: 100%;
     padding-top: 30px;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 35%;
-    font-family: 'Raleway', sans-serif;   
+    font-family: 'Source Sans Pro', sans-serif;
      color:  #7a5f15;
     font-size: 20px;
+    line-height: 1.25;
 
+}
+
+span{
+  display:inline-block;
+  border-bottom:1px solid #7a5f15;
+  padding-bottom:1px;
 }
 
 h5 {
     padding-top: 10px;
-    padding-left: 15%;
-    font-family: 'Raleway', sans-serif;   
+    padding-left: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
      color:  #7a5f15;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;  
+  font-family: 'Source Sans Pro', sans-serif;
   color:  #7a5f15;
 }
 
