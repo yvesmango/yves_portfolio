@@ -1,6 +1,6 @@
 # yves_portfolio
 
-# git add
+# git add .
 
 # git commit -m ""
 
